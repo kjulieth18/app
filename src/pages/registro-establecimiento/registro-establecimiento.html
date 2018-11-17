@@ -1,0 +1,83 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Registro Establecimiento
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page11">
+  <div id="registroEstablecimiento-markdown11" style="text-align:right;" class="show-list-numbers-and-dots">
+    <p style="color:#000000;">
+      Usuario Entidad
+    </p>
+  </div>
+  <h3 id="registroEstablecimiento-heading6" style="color:#000000;">
+    Nuevo Registro
+  </h3>
+  <form id="registroEstablecimiento-form7">
+    <ion-item id="registroEstablecimiento-input13">
+      <ion-label></ion-label>
+      <ion-input type="number" placeholder="NIT"></ion-input>
+    </ion-item>
+    <ion-item id="registroEstablecimiento-input14">
+      <ion-label></ion-label>
+      <ion-input type="text" placeholder="Razón Social"></ion-input>
+    </ion-item>
+    <ion-item id="registroEstablecimiento-input15">
+      <ion-label></ion-label>
+      <ion-input type="email" placeholder="Email"></ion-input>
+    </ion-item>
+    <ion-item id="registroEstablecimiento-input16">
+      <ion-label></ion-label>
+      <ion-input type="text" placeholder="Nombre Contacto"></ion-input>
+    </ion-item>
+    <ion-item id="registroEstablecimiento-input17">
+      <ion-label></ion-label>
+      <ion-input type="text" placeholder="Dirección"></ion-input>
+    </ion-item>
+    <ion-item id="registroEstablecimiento-input18">
+      <ion-label></ion-label>
+      <ion-input type="tel" placeholder="Celular"></ion-input>
+    </ion-item>
+    <ion-item id="registroEstablecimiento-select2">
+      <ion-label>
+        Tipo Establemcimiento
+      </ion-label>
+      <ion-select name="">
+        <ion-option>
+          Restaurante
+        </ion-option>
+        <ion-option>
+          Cafeterías
+        </ion-option>
+        <ion-option>
+          Centro Comercial
+        </ion-option>
+        <ion-option>
+          Comidas Rápidas
+        </ion-option>
+        <ion-option>
+          Apartamentos
+        </ion-option>
+        <ion-option>
+          Discotecas
+        </ion-option>
+        <ion-option>
+          Bares
+        </ion-option>
+        <ion-option>
+          Venta de Ropa y Accesorios
+        </ion-option>
+      </ion-select>
+    </ion-item>
+    <button id="registroEstablecimiento-button19" ion-button color="positive" block on-click="goToDetalleEstablecimiento()">
+      Guardar
+    </button>
+    <button id="registroEstablecimiento-button20" ion-button color="positive" block on-click="goToEstablecimientosRegistrados()">
+      Cancelar
+    </button>
+  </form>
+</ion-content>
